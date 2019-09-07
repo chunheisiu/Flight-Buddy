@@ -1,5 +1,5 @@
 ## USF CS 485 Project:
-Project: Air Travel App - Flight Buddy
+Project: Air Travel App – Flight Buddy
 
 ###### Team Members
 * Joshua Chong ([@jachogn](https://github.com/jachogn))

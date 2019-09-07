@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+	<title>Flight Buddy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- iOS Web App Meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Flight Buddy">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link rel="apple-touch-startup-image" href="launch.png">
+
+  <!-- Android Web App Meta -->
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <div class="center">
+    <img src="logo.svg" width="100px" class="logo">
+		<br><br>
+  </div>
+	<div class="center flight-path">
+			<img src="img/cx_logo.svg" width="40vw">&ensp;<span class="flight-number">CX 880</span>
+			<br>
+	</div>
+	<br>
+	<span class="backbtn" onclick="window.history.back();"><img src="img/back.svg" height="50vh">Back</span>
+	<div class="center">
+		<img src="img/star_filled.svg" height="30vh">
+		<img src="img/star_filled.svg" height="30vh">
+		<img src="img/star_filled.svg" height="30vh">
+		<img src="img/star_hollow.svg" height="30vh">
+		<img src="img/star_hollow.svg" height="30vh">
+		<br>
+		<span>Based on 55 Reviews</span>
+	</div>
+	<br><br>
+	<div class="center">
+		<ul class="flight-path-title">
+			<li><span class="flight-endpts">HKG</span><br>Hong Kong<br><br>12:05 AM<br>HKT (UTC+8)</li>
+			<li class="flight-path-arrow"><img src="img/to.svg" height="50vh"></li>
+			<li><span class="flight-endpts">LAX</span><br>Los Angeles<br><br>10:15 PM (-1)<br>PST (UTC−8)</li>
+		</ul>
+	</div>
+	<br><br>
+	<div class="center">
+		<button type="button" class="reviews-btn" onclick="location.href='reviews_cx880.html';">View Reviews</button>
+	</div>
+	<br>
+  <div class="tabbar">
+		<ul class="tablist">
+			<li onclick="location.href='search.html';"><img src="img/search.svg" height="40vh"><br>Search</li>
+			<li onclick="location.href='history.html';"><img src="img/history.svg" height="40vh"><br>History</li>
+			<li onclick="location.href='account.html';"><img src="img/account.svg" height="40vh"><br>Account</li>
+		</ul>
+	</div>
+</body>
+</html>

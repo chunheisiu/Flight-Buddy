@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+	<title>Flight Buddy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- iOS Web App Meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Flight Buddy">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link rel="apple-touch-startup-image" href="launch.png">
+
+  <!-- Android Web App Meta -->
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <div class="center">
+    <img src="logo.svg" width="100px" class="logo">
+    <br>
+    <h3 class="center">Add Review for CX 881</h3>
+  </div>
+	<span class="backbtn" onclick="location.href='history.html';"><img src="img/back.svg" height="50vh">Back</span>
+	<br>
+	<div class="center">
+		<table class="search-flight center">
+			<tr>
+				<th>Overall</th>
+				<td>
+					<div class="rating">
+						<input name="Overall" type="radio" value="5" /><span>☆</span>
+						<input name="Overall" type="radio" value="4" /><span>☆</span>
+						<input name="Overall" type="radio" value="3" /><span>☆</span>
+						<input name="Overall" type="radio" value="2" /><span>☆</span>
+						<input name="Overall" type="radio" value="1" /><span>☆</span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th>Price</th>
+				<td>
+					<div class="rating">
+						<input name="Price" type="radio" value="5" /><span>☆</span>
+						<input name="Price" type="radio" value="4" /><span>☆</span>
+						<input name="Price" type="radio" value="3" /><span>☆</span>
+						<input name="Price" type="radio" value="2" /><span>☆</span>
+						<input name="Price" type="radio" value="1" /><span>☆</span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th>Comfort</th>
+				<td>
+					<div class="rating">
+						<input name="Comfort" type="radio" value="5" /><span>☆</span>
+						<input name="Comfort" type="radio" value="4" /><span>☆</span>
+						<input name="Comfort" type="radio" value="3" /><span>☆</span>
+						<input name="Comfort" type="radio" value="2" /><span>☆</span>
+						<input name="Comfort" type="radio" value="1" /><span>☆</span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th>Service</th>
+				<td>
+					<div class="rating">
+						<input name="Service" type="radio" value="5" /><span>☆</span>
+						<input name="Service" type="radio" value="4" /><span>☆</span>
+						<input name="Service" type="radio" value="3" /><span>☆</span>
+						<input name="Service" type="radio" value="2" /><span>☆</span>
+						<input name="Service" type="radio" value="1" /><span>☆</span>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<form class="center editprofile-form">
+      <textarea type="text" class="register-field" placeholder="enter review here..." rows="5"></textarea>
+      <br><br>
+      <button type="button" class="welcome-btn" onclick="location.href='reviews_add_success.html';">Submit</button>
+    </form>
+	</div>
+  <div class="tabbar">
+		<ul class="tablist">
+			<li onclick="location.href='search.html';"><img src="img/search.svg" height="40vh"><br>Search</li>
+			<li onclick="location.href='history.html';"><img src="img/history.svg" height="40vh"><br>History</li>
+			<li onclick="location.href='account.html';"><img src="img/account.svg" height="40vh"><br>Account</li>
+		</ul>
+	</div>
+</body>
+</html>

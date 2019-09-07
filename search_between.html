@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+	<title>Flight Buddy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- iOS Web App Meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Flight Buddy">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link rel="apple-touch-startup-image" href="launch.png">
+
+  <!-- Android Web App Meta -->
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <div class="center">
+    <img src="logo.svg" width="100px" class="logo">
+    <br>
+    <h3 class="center">Search by Route</h3>
+  </div>
+	<span class="backbtn" onclick="location.href='search.html';"><img src="img/back.svg" height="50vh">Back</span>
+	<br>
+	<div class="center">
+		<form class="center editprofile-form">
+      <input type="text" class="register-field" placeholder="origin city or airport">
+      <br>
+      <input type="text" class="register-field" placeholder="destination city or airport">
+      <br><br>
+      <button type="button" class="welcome-btn" onclick="location.href='search_hkglax.html';">Search</button>
+    </form>
+	</div>
+  <div class="tabbar">
+		<ul class="tablist">
+			<li onclick="location.href='search.html';"><img src="img/search.svg" height="40vh"><br>Search</li>
+			<li onclick="location.href='history.html';"><img src="img/history.svg" height="40vh"><br>History</li>
+			<li onclick="location.href='account.html';"><img src="img/account.svg" height="40vh"><br>Account</li>
+		</ul>
+	</div>
+</body>
+</html>

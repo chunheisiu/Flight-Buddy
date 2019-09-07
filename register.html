@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+	<title>Flight Buddy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- iOS Web App Meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Flight Buddy">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link rel="apple-touch-startup-image" href="launch.png">
+
+  <!-- Android Web App Meta -->
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <div class="center">
+    <img src="logo.svg" width="100px" class="logo-login">
+    <br>
+    <h3 class="center">Register</h3>
+  </div>
+  <div>
+    <form class="center register-form">
+      <input type="text" class="register-field" placeholder="full name">
+			<br>
+			<input type="text" class="register-field" placeholder="username">
+      <br>
+      <input type="email" class="register-field" placeholder="email">
+      <br>
+      <input type="password" class="register-field" placeholder="password">
+      <br>
+      <input type="password" class="register-field" placeholder="verify password">
+      <br><br><br>
+      <button type="button" class="welcome-btn" onclick="location.href='register_success.html';">Register</button>
+      <br><br>
+      <a onclick="location.href='login.html';">Already have an account? Login!</a>
+    </form>
+  </div>
+</body>
+</html>

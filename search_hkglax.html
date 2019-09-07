@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+	<title>Flight Buddy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- iOS Web App Meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Flight Buddy">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link rel="apple-touch-startup-image" href="launch.png">
+
+  <!-- Android Web App Meta -->
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <div class="center">
+    <img src="logo.svg" width="100px" class="logo">
+    <br>
+    <h3 class="center">Search Results</h3>
+  </div>
+	<span class="backbtn" onclick="location.href='search_between.html';"><img src="img/back.svg" height="50vh">Back</span>
+	<div class="center search-flightpath">
+		<span>Hong Kong (HKG)</span>
+		<img src="img/to.svg" height="25vh">
+		<span>Los Angeles (LAX)</span>
+	</div>
+	<br>
+	<div class="center">
+		<h4>Please choose from the following flights</h4>
+		<table class="search-betweentable center">
+			<tr>
+				<th>Flight</th>
+				<th>Schedule</th>
+				<th>Depature / Arrival Times</th>
+			</tr>
+			<tr onclick="location.href='search_cx880.html';">
+				<td><img src="img/cx_logo.svg" width="20vw"><br>CX 880</td>
+				<td>Daily</td>
+				<td>12:05 AM - 10:15 PM (-1)</td>
+			</tr>
+			<tr onclick="alert('Sorry! This function is not available in prototype!');">
+				<td><img src="img/cx_logo.svg" width="20vw"><br>CX 884</td>
+				<td>Daily</td>
+				<td>12:45 PM - 10:10 AM</td>
+			</tr>
+			<tr onclick="alert('Sorry! This function is not available in prototype!');">
+				<td><img src="img/cx_logo.svg" width="20vw"><br>CX 882</td>
+				<td>Daily</td>
+				<td>4:35 PM - 2:00 PM</td>
+			</tr>
+			<tr onclick="alert('Sorry! This function is not available in prototype!');">
+				<td><img src="img/aa_logo.svg" width="20vw"><br>AA 192</td>
+				<td>Daily</td>
+				<td>6:10 PM - 4:30 PM</td>
+			</tr>
+		</table>
+	</div>
+	<div>
+	</div>
+	<br>
+  <div class="tabbar">
+		<ul class="tablist">
+			<li onclick="location.href='search.html';"><img src="img/search.svg" height="40vh"><br>Search</li>
+			<li onclick="location.href='history.html';"><img src="img/history.svg" height="40vh"><br>History</li>
+			<li onclick="location.href='account.html';"><img src="img/account.svg" height="40vh"><br>Account</li>
+		</ul>
+	</div>
+</body>
+</html>

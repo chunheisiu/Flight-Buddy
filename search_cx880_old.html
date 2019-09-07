@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+	<title>Flight Buddy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- iOS Web App Meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Flight Buddy">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link rel="apple-touch-startup-image" href="launch.png">
+
+  <!-- Android Web App Meta -->
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <div class="center">
+    <img src="logo.svg" width="100px" class="logo">
+    <br>
+    <h3 class="center">Search Result for CX 880</h3>
+  </div>
+	<span class="backbtn" onclick="window.history.back();"><img src="img/back.svg" height="50vh">Back</span>
+	<div class="center">
+		<img src="img/star_filled.svg" height="30vh">
+		<img src="img/star_filled.svg" height="30vh">
+		<img src="img/star_filled.svg" height="30vh">
+		<img src="img/star_hollow.svg" height="30vh">
+		<img src="img/star_hollow.svg" height="30vh">
+		<br>
+		<span>Based on 55 Reviews</span>
+	</div>
+	<br>
+	<div class="center">
+		<img src="img/cx_logo.svg" width="40vw">
+		<table class="search-result">
+			<tr>
+				<th>Operator</th>
+				<td>Cathay Pacific</td>
+			</tr>
+			<tr>
+				<th>Origin</th>
+				<td>Hong Kong (HKG)</td>
+			</tr>
+			<tr>
+				<th>Destination</th>
+				<td>Los Angeles (LAX)</td>
+			</tr>
+			<tr>
+				<th>Aircraft</th>
+				<td>Boeing 777-300ER (77W)</td>
+			</tr>
+		</table>
+		<br><br>
+		<span class="airline-code">CX / CPA</span>
+	</div>
+	<br>
+	<div class="search-data">
+		<h4>Operation Days</h4>
+		<table>
+			<tr>
+				<th>Sun</th>
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+				<th>Sat</th>
+			</tr>
+			<tr>
+				<th><img src="img/yes.svg" height="30vh"></th>
+				<th><img src="img/yes.svg" height="30vh"></th>
+				<th><img src="img/yes.svg" height="30vh"></th>
+				<th><img src="img/yes.svg" height="30vh"></th>
+				<th><img src="img/yes.svg" height="30vh"></th>
+				<th><img src="img/yes.svg" height="30vh"></th>
+				<th><img src="img/yes.svg" height="30vh"></th>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<div class="search-data">
+		<table>
+			<tr>
+				<th>Scheduled Depature Time (Local)</th>
+				<td>12:05 AM</td>
+			</tr>
+			<tr>
+				<th>Scheduled Arrival Time (Local)</th>
+				<td>10:15 PM (-1)</td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<div class="center">
+		<button type="button" class="reviews-btn" onclick="location.href='reviews_cx880.html';">View Reviews</button>
+	</div>
+	<br>
+  <div class="tabbar">
+		<ul class="tablist">
+			<li onclick="location.href='search.html';"><img src="img/search.svg" height="40vh"><br>Search</li>
+			<li onclick="location.href='history.html';"><img src="img/history.svg" height="40vh"><br>History</li>
+			<li onclick="location.href='account.html';"><img src="img/account.svg" height="40vh"><br>Account</li>
+		</ul>
+	</div>
+</body>
+</html>

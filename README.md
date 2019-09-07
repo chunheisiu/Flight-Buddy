@@ -1,4 +1,4 @@
-## USF CS 485 Project:
+## USF CS 485: User Experience Design
 Project: Air Travel App – Flight Buddy
 
 ###### Team Members

@@ -8,4 +8,4 @@ Project: Air Travel App – Flight Buddy
 
 ### Introduction
 The project was a concept for a mobile application that provides a platform for air travelers to share their flight
-experiences. It is part of the coursework for CS 486 User Experience Design class at University of San Francisco.
+experiences. It is part of the coursework for CS 486 User Experience Design class at the University of San Francisco.
